@@ -37,7 +37,6 @@ button.onclick = (event)=> {
     event.preventDefault()
     let capMax = 6;
     let principalCantidad = document.querySelectorAll('#principal > div');
-     console.log(principalCantidad.length)
     if(typeof input.value === typeof "") {
         city =  input.value.split(",")[0];
         country = input.value.split(", ")[1]
