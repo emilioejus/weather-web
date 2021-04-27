@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding-top: 2em;
+}
+h1 {
+    text-align: center;
+
+}
+/** mapa*/
+#map {
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 20px 0px;
+}
+.card {
+    width: 200px;
+}
+#principal {
+    display: flex;
+    margin: 20px;
+}
+#footer- {
+    background-image: linear-gradient(rgb(67, 202, 255), rgb(5, 91, 189));
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+#footer-  .col-12 > a {
+    color: white;
+}
+
+
+.coordinates {
+background: rgba(0, 0, 0, 0.5);
+color: #fff;
+position: absolute;
+bottom: 40px;
+left: 10px;
+padding: 5px 10px;
+margin: 0;
+font-size: 11px;
+line-height: 18px;
+border-radius: 3px;
+display: none;
+}
